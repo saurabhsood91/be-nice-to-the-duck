@@ -1,6 +1,6 @@
 import { RootState } from '../rootReducer';
 import { HAPPY, SAD } from './types';
-import { HAPPY_DUCK, NEUTRAL_DUCK } from './states';
+import { HAPPY_DUCK, NEUTRAL_DUCK, SAD_DUCK } from './states';
 
 export const selectDuckText = (state: RootState): string => {
     const { emotion } = state.app;
@@ -9,7 +9,7 @@ export const selectDuckText = (state: RootState): string => {
             return HAPPY_DUCK;
         }
         case SAD: {
-            return 'SAD';
+            return SAD_DUCK;
         }
         default: {
             return NEUTRAL_DUCK;
