@@ -23,7 +23,8 @@ module.exports = {
         "plugin:prettier/recommended"
     ],
     rules: {
-        "no-console": "warn"
+        "no-console": "warn",
+        "react/prop-types": 0
     }
 
 };

@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import configureStore from './state/store';
 import Header from './components/Header';
 import InputBox from './components/Input';
+import Duck from './components/Duck';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <div className="App">
                 <Header />
                 <InputBox />
+                <Duck />
             </div>
         </Provider>
     );
