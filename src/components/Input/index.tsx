@@ -17,7 +17,6 @@ const InputBox: React.FunctionComponent = () => {
             setText('');
             return;
         }
-        console.log({ enteredText });
         setText(enteredText);
     };
 
