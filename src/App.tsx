@@ -7,6 +7,8 @@ import Header from './components/Header';
 import InputBox from './components/Input';
 import Duck from './components/Duck';
 
+import AudioPlayer from './components/Audio';
+
 function App() {
     return (
         <Provider store={configureStore()}>
@@ -14,6 +16,7 @@ function App() {
                 <Header />
                 <InputBox />
                 <Duck />
+                <AudioPlayer />
             </div>
         </Provider>
     );
